@@ -1,0 +1,25 @@
+{
+  properties: [
+    {
+      name: "concurrency"
+      description: "The number of threads to use"
+      type: "int"
+      required: "false"
+      default: 1
+    },
+    {
+      name: "files"
+      description: "The number of files to write"
+      type: "int"
+      required: "false"
+      default: 60000
+    },
+    {
+      name: "size"
+      description: "The size of each file in bytes"
+      type: "int"
+      required: "false"
+      default: 25000
+    },
+  ]
+}
